@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Twat</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="nav_home">홈</string>
+    <string name="nav_friend">친구</string>
+    <string name="nav_cal">모임</string>
+    <string name="nav_set">설정</string>
+</resources>

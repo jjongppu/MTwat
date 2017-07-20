@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/groupImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/groupListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_weight="1"
+                android:gravity="fill_vertical"
+                android:text="Test Title"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/groupListName"
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center"
+                android:text="TestUser"
+                android:textSize="18sp"
+                android:layout_weight="0.32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.63" />
+
+            <TextView
+                android:id="@+id/groupListUserCount"
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="1 test"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

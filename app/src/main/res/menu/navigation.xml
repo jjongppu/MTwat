@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navBtnHome"
+        android:icon="@drawable/nav_img_home"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/navBtnFriend"
+        android:icon="@drawable/nav_img_friend"
+        android:title="@string/nav_friend" />
+
+    <item
+        android:id="@+id/navBtnCalender"
+        android:icon="@drawable/nav_img_cal"
+        android:title="@string/nav_cal" />
+    <item
+        android:id="@+id/navBtnSetting"
+        android:icon="@drawable/nav_img_settings"
+        android:title="@string/nav_set" />
+</menu>
